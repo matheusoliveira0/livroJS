@@ -36,16 +36,17 @@ h2 {
 }
 
 input {
-  width: 50%;
+  width: auto;
   padding: 10px;
   border: none;
   outline: none;
   border-radius: 5px;
+  margin: 5px;
 }
 
-button {
+#main-btn {
   background-color: slateblue;
-  width: 50%;
+  width: auto;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -53,4 +54,8 @@ button {
   color: #fff;
   cursor: pointer;
   transition: all 0.5s;
+}
+
+#main-btn:hover {
+  background-color: rgb(137, 175, 247);
 }
